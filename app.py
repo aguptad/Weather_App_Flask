@@ -98,5 +98,3 @@ def delete_city(name):
     flash(f'Successfully deleted { city.name }.', 'success')
 
     return redirect(url_for('index_get'))
-
-    
